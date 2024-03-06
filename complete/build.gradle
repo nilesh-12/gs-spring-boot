@@ -13,6 +13,9 @@ repositories {
 }
 
 dependencies {
+  // tag::graph[]
+  implementation 'com.graphql-java:graphql-java:21.3'
+  // end::graph[]
 	// tag::actuator[]
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	// end::actuator[]

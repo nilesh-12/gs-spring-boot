@@ -11,4 +11,9 @@ public class HelloController {
 		return "Greetings from Spring Boot!";
 	}
 
+	@GetMapping("/api")
+	public String api() {
+		return "TODO: get encrypted request";
+	}
+
 }
